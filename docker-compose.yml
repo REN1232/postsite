@@ -19,8 +19,8 @@ services:
     image: mysql:5.7
     environment:
       MYSQL_DATABASE: postsite
-      MYSQL_USER: kagikake
-      MYSQL_PASSWORD: kagikake
+      MYSQL_USER: ren1232
+      MYSQL_PASSWORD: ren1232
       MYSQL_ROOT_PASSWORD: root
     ports:
       - "3306:3306"
