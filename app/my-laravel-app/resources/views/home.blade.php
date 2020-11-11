@@ -13,6 +13,11 @@
                             {{ session('status') }}
                         </div>
                     @endif
+                    @if(isset($posts))
+                        @foreach($posts as $post)
+                        <img src="{{ asset($post->images[0]->icon) }}" alt="..." class="img-thumbnail">
+                        @endforeach
+                    @endif
 
                     {{ __('You are logged in!') }}
                 </div>
